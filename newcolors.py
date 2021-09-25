@@ -2,7 +2,7 @@
 # coding=utf-8
 #######################################################
 #
-# Contact: Dr. Xudong Zhou
+# Author: Dr. Xudong Zhou
 # Mail: x.zhou@rainbow.iis.u-tokyo.ac.jp
 # 
 # ---------------------------------------------------
