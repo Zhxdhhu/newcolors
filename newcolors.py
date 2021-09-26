@@ -30,7 +30,7 @@
 # (2) 如果需要使用色带，本程序末有一个示例
 #   cmap = newcolors.newcmp(ColormapName) # 加载一个名为 ColormapName的色带
 # 举例
-#   im = plt.imshow(data, norm = norml, cmap=newcmp('green5m'))  # 使用 "greem5m"
+#   im = plt.imshow(data, norm = norml, cmap=newcolors.newcmp('green5m'))  # 使用 "greem5m"
 # 
 # 注意，这些色带是离散的颜色，因此最好提前定义好色带的数量，选择相同数量的色带（如果使用连续性的问题也不大）
 # ------------------------------------------------------
@@ -59,7 +59,7 @@
 # (2) If you want to use a colormap, there is a sample code in the end of this file. 
 #   cmap = newcolors.newcmp(ColormapName) # call a new colormap named ColormapName
 # e.g., 
-#   im = plt.imshow(dc, norm = norml, cmap=newcmp('green5m'))  # using the colormap named "greem5m", 5 bands of green color
+#   im = plt.imshow(dc, norm = norml, cmap=newcolors.newcmp('green5m'))  # using the colormap named "greem5m", 5 bands of green color
 # 
 # Note that the colormap are designed for discrete colors, better to use same number of color bands as the name identifed. 
 # 
