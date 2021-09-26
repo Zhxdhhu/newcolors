@@ -15,20 +15,19 @@
 # 表示不同情景的单色：r85l, r60l, r45l, r26l (线)，以及 r85s, r60s, r45s, r26s (阴影)
 # 用于表示温度的色带：t5~t11 （数字代表颜色分级数量）
 # 用于表示降水的色带：p5~p11
-# 单色的递进色带：共有4个色系（蓝色，紫色，红色，绿色），分3，4，5级，例如 blue3s~blue5s，代表绿色系3-5级
+# 单色的递进色带：共有4个色系（blue, purple, red, green），分3，4，5级，例如 blue3s~blue5s，代表绿色系3-5级
 # 多色的递进色带：分类与上相同，颜色区别度更高
 # 如果想用使用相反的色带，可以在色带名称后加"_r"
 # 使用方法：
 # （0）首先将本文件拷贝到工作文件夹
 #  import newcolors   # 加载
-# （1）使用单个颜色
-# 
+#
+# （1）使用单个颜色 
 #   c = newcolors.newcolor(ColorName) # ColorName即想要的颜色
 # 举例：
 #   plt.plot( data, c = newcolors.newcolor('l2')) # 画一条淡蓝色的线: rgb(112, 160, 205)
 #
-# (2) 如果需要使用色带，本程度末有一个示例
-# 
+# (2) 如果需要使用色带，本程序末有一个示例
 #   cmap = newcolors.newcmp(ColormapName) # 加载一个名为 ColormapName的色带
 # 举例
 #   im = plt.imshow(data, norm = norml, cmap=newcmp('green5m'))  # 使用 "greem5m"
@@ -51,14 +50,13 @@
 # How to use it?
 # (0) copy this file to your working folder, then import 
 # import newcolors # Load
-# (1) If you want to use a single color
-# 
+#
+# (1) If you want to use a single color 
 #   c = newcolors.newcolor(ColorName) # colorname is the list names 
 # e.g., 
 #   plt.plot( data, c = newcolors.newcolor('l2')) # plot a line in light blue: rgb(112, 160, 205)
 #
 # (2) If you want to use a colormap, there is a sample code in the end of this file. 
-#
 #   cmap = newcolors.newcmp(ColormapName) # call a new colormap named ColormapName
 # e.g., 
 #   im = plt.imshow(dc, norm = norml, cmap=newcmp('green5m'))  # using the colormap named "greem5m", 5 bands of green color
